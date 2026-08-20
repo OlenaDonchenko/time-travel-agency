@@ -248,3 +248,100 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 5%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .book-button {
+        padding: 10px 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 50px 5%;
+        gap: 30px;
+    }
+
+    .hero-image {
+        order: -1;
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .intro {
+        padding: 50px 5%;
+    }
+
+    .intro h2 {
+        font-size: 32px;
+    }
+
+    .intro-text {
+        font-size: 16px;
+    }
+
+    .destinations {
+        padding: 50px 5%;
+    }
+
+    .section-heading h2 {
+        font-size: 34px;
+    }
+
+    .destination-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .destination-card img {
+        height: 220px;
+    }
+
+    .cta {
+        padding: 50px 5%;
+    }
+
+    .cta h2 {
+        font-size: 32px;
+    }
+
+    footer {
+        padding: 50px 5% 30px;
+    }
+
+    .footer-logo {
+        font-size: 26px;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}
